@@ -15,7 +15,7 @@ const ExchangeCard = ({
   return (
     <div
       className={
-        "grid grid-rows-1 lg:grid-cols-3 lg:gap-8 gap-4 w-2/3 text-white bg-slate-600 bg-opacity-30 my-12 p-4 border border-gray-600 rounded m-auto transition duration-500 hover:scale-110 hover:bg-slate-700"
+        "grid grid-rows-1 justify-center lg:grid-cols-3 lg:gap-8 gap-4 w-2/3 text-white bg-slate-600 bg-opacity-30 my-12 p-4 border border-gray-600 rounded m-auto transition duration-500 hover:scale-110 hover:bg-slate-700"
       }
     >
       <div className={"flex justify-center items-center"}>

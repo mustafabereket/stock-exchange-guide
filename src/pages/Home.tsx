@@ -27,7 +27,7 @@ function Home() {
 
   return (
     <>
-      <h2 className={"text-white text-2xl text-center mt-8"}>
+      <h2 className={"text-white text-2xl md:text-4xl text-center mt-8"}>
         Stock Exchange Info Guide
         <img
           src={
@@ -38,7 +38,7 @@ function Home() {
           alt={"stakefish"}
         />
       </h2>
-      <div className={"m-auto px-16 grid md:grid-cols-2 grid-cols-1"}>
+      <div className={"m-auto grid md:grid-cols-2 grid-cols-1"}>
         {exchanges.length ? (
           exchanges.map((exchange: Exchange) => {
             return <ExchangeCard key={exchange.name} {...exchange} />;
